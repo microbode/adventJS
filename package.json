@@ -9,5 +9,11 @@
   },
   "dependencies": {
     "esm": "^3.2.25"
+  },
+  "devDependencies": {
+    "eslint": "^8.4.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.3",
+    "prettier": "^2.5.1"
   }
 }

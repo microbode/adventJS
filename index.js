@@ -1,20 +1,6 @@
-import contains from "./07.js";
+import maxProfit from "./08";
 
-const almacen = {
-  estanteria1: {
-    cajon1: {
-      producto1: "coca-cola",
-      producto2: "fanta",
-      producto3: "sprite",
-    },
-  },
-  estanteria2: {
-    cajon1: "vacio",
-    cajon2: {
-      producto1: "pantalones",
-      producto2: "camiseta", // <- ¡Está aquí!
-    },
-  },
-};
+const pricesBtc = [39, 18, 29, 25, 34, 32, 5];
 
-contains(almacen, "pantalones");
+maxProfit(pricesBtc);
+
