@@ -1,6 +1,3 @@
-import maxProfit from "./08";
+import groupBy from "./09";
 
-const pricesBtc = [39, 18, 29, 25, 34, 32, 5];
-
-maxProfit(pricesBtc);
-
+groupBy([6.1, 4.2, 6.3], Math.floor); 
