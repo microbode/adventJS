@@ -1,3 +1,3 @@
-import getCoins from "./10.js";
+import shouldBuyFidelity from "./11";
 
-getCoins(100);
+shouldBuyFidelity(30);
