@@ -1,3 +1,3 @@
-import groupBy from "./09";
+import getCoins from "./10.js";
 
-groupBy([6.1, 4.2, 6.3], Math.floor); 
+getCoins(100);
