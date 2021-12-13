@@ -1,3 +1,4 @@
-import shouldBuyFidelity from "./11";
+import getMinJump from "./12.js";
 
-shouldBuyFidelity(30);
+const obstacles = [2, 4, 6, 8, 10];
+getMinJump(obstacles);
