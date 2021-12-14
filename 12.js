@@ -79,6 +79,5 @@ export default function getMinJump(obstacles) {
       break;
     }
   }
-  console.log(minJump);
   return minJump;
 }
