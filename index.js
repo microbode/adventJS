@@ -1,13 +1,4 @@
-import countPackages from "./17.js";
+import fixFiles from "./18";
 
-const carriers2 = [
-  ["lolivier", 8, ["camila", "jesuspoleo"]],
-  ["camila", 5, ["sergiomartinez", "conchaasensio"]],
-  ["jesuspoleo", 4, []],
-  ["sergiomartinez", 4, []],
-  ["conchaasensio", 3, ["facundocapua", "faviola"]],
-  ["facundocapua", 2, []],
-  ["faviola", 1, []],
-];
-
-console.log(countPackages(carriers2, "camila"));
+const files2 = ["photo", "postcard", "photo", "photo", "video"];
+console.log(fixFiles(files2));
