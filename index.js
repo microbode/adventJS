@@ -1,4 +1,3 @@
-import fixFiles from "./18";
+import learn from "./19";
 
-const files2 = ["photo", "postcard", "photo", "photo", "video"];
-console.log(fixFiles(files2));
+console.log(learn(4, [10, 14, 20]));
