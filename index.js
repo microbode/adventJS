@@ -1,3 +1,3 @@
-import checkSledJump from "./15.js";
+import decodeNumbers from "./16.js";
 
-console.log(checkSledJump([1, 2, 3]));
+console.log(decodeNumbers(".........!"));
