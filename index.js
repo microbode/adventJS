@@ -1,3 +1,7 @@
-import learn from "./19";
+import pangram from "./20";
 
-console.log(learn(4, [10, 14, 20]));
+console.log(
+  pangram(
+    "Esto es una frase larga pero no tiene todas las letras del abecedario"
+  )
+);
