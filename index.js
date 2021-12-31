@@ -1,7 +1,8 @@
-import pangram from "./20";
+import canCarry from "./21.js";
 
 console.log(
-  pangram(
-    "Esto es una frase larga pero no tiene todas las letras del abecedario"
-  )
+  canCarry(3, [
+    [2, 1, 5],
+    [3, 5, 7],
+  ])
 );
